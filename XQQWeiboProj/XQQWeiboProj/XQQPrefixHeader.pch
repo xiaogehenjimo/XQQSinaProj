@@ -1,0 +1,37 @@
+//
+//  XQQPrefixHeader.pch
+//  XQQWeiboProj
+//
+//  Created by XQQ on 16/8/29.
+//  Copyright © 2016年 UIP. All rights reserved.
+//
+
+#ifndef XQQPrefixHeader_pch
+#define XQQPrefixHeader_pch
+
+#define kAPPKey         @"1222832087"//2919371767  // 1222832087
+#define kRedirectURL    @"https://api.weibo.com/oauth2/default.html"
+#define AppSecret       @"41ce10c54f809a1ccf84ac45e98d3a44"//c9a3112c811ec8f594c7e2153af5ff48    //41ce10c54f809a1ccf84ac45e98d3a44
+#define iphoneWidth   [UIScreen mainScreen].bounds.size.width
+#define iphoneHeight  [UIScreen mainScreen].bounds.size.height
+
+#import "UIView+Extension.h"
+#import <AFNetworking.h>
+#import <MBProgressHUD.h>
+#import <UIImageView+WebCache.h>
+#import <WebViewJavascriptBridge.h>
+#import <WeiboSDK.h>
+#import <YYKit.h>
+#import "LPUtility.h"
+#import "UIPHttpRequest.h"
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import "NSDate+XQQAdd.h"
+#import "NSString+XQQAdd.h"
+#import "Emoji.h"
+#import "UIActionSheet+Block.h"
+#import "UIAlertView+LPBlock.h"
+#import "Toast+UIView.h"
+#import "NSString+emoji.h"
+#import "UITextView+Extension.h"
+#endif /* XQQPrefixHeader_pch */
